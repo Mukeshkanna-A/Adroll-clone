@@ -57,7 +57,7 @@ const Footer = () => {
           AdChoices
         </a>
         <a href="" className="fanchor" style={{ fontSize: "10px" }}>
-          Your Privacy Choices
+          Your Privacy Choices<img src="https://www.adroll.com/assets/img/your-privacy-choices.png" alt="" width="25" />
         </a>
       </div>
       <p

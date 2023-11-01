@@ -219,3 +219,148 @@ strong:hover {
 .fanchor:hover {
   text-decoration: underline;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+/* Fonts  */
+.font{
+    font-family: 'Work Sans', sans-serif;
+}
+
+#bgcol {
+  align-items: center;
+  background-image: url(https://www.adroll.com/assets/svg/bkgd/blob-blue.svg);
+  background-position: left -65px bottom -180px;
+  background-repeat: no-repeat;
+
+  margin-bottom: -50px;
+  padding-bottom: 0px;
+  /* position: relative; */
+}
+
+.bg {
+  background-position: left -65px bottom -650px;
+  justify-content: center;
+}
+
+.buttona {
+  border-radius: 5px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  margin-top: 1em;
+  padding: 1em 2em;
+}
+
+
+    #dot{
+        width: 26%;
+        margin-left: 650px;
+        margin-top: -70px;
+        /* padding-left: 30%; */
+        /* margin-bottom: -50px; */
+        position: absolute;
+
+    }
+#bluedots{
+    z-index: 0;
+    width: 450px;
+    height: 450px;
+    margin-top: -79px;
+    margin-right: -205px;
+    background-image: url(https://www.adroll.com/assets/img/globals/bkgd-bluedot-sm.png);
+    
+}
+
+#pinkybg {
+    
+  background-image: url(https://www.adroll.com/assets/svg/bkgd/blob-pink.svg);
+  background-position: left -60px top -100px ;
+  background-repeat: no-repeat;
+  display: flex;
+  flex: 1;
+  flex-basis: 1%;
+  justify-content: center;
+  padding: 0 15px;
+    margin-right: 12px;
+}
+
+
+.price{
+    font-size: 110px;
+    line-height: 95px;
+    font-weight: 700;
+    position: relative;
+    z-index: 1;
+}
+
+.textp{
+    color: #3c4858;
+}
+
+.textright{
+    align-self: flex-end;
+    
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 12%;
+    margin-top: 20%;
+    position: relative;
+    text-align: center;
+    z-index: 202;
+}
+
+
+#endbut{
+    background-color: #00aeef;
+    border-radius: 5px;
+    font-size: 10px;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    letter-spacing: 1px;
+    
+}
+
+
+.topalert {
+  font-size: 1em;
+  /* max-width: 1680px; */
+  padding: 15px 0.8335em;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+.buttext{
+font-size: 14px;
+}
+
+@media (min-width:1281px) {
+  #box {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border: 10px solid;
+    border-color: #303273;
+  }
+}
+
+@media (min-width:1025px){
+  #box {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 190px;
+    margin-right: 190px;
+    border: 10px solid;
+    border-color: #303273;
+  }
+}
+
+
+.sys{
+  min-height: 100%;
+margin-left: 20px;
+}
+
